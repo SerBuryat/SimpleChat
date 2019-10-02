@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.chat.client.GuiController">
+   <children>
+      <TextArea fx:id="textAreaChatArea" editable="false" layoutX="13.0" layoutY="61.0" prefHeight="254.0" prefWidth="576.0" wrapText="true" />
+      <TextArea fx:id="textAreaUserMSG" layoutX="13.0" layoutY="334.0" prefHeight="52.0" prefWidth="422.0" />
+      <TextField fx:id="textFieldNickName" layoutX="98.0" layoutY="14.0" prefHeight="33.0" prefWidth="214.0" text="Annonymus" />
+      <Label layoutY="14.0" prefHeight="33.0" prefWidth="97.0" text="Your nickname :" />
+      <Button fx:id="buttonConfirmNickname" layoutX="335.0" layoutY="18.0" mnemonicParsing="false" text="Confirm" />
+      <Button fx:id="buttonUserSendMSG" layoutX="442.0" layoutY="344.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="59.0" text="Send" />
+      <Label layoutX="510.0" layoutY="325.0" prefHeight="70.0" prefWidth="80.0" text="Click &quot;Send&quot; or press Enter" textAlignment="CENTER" wrapText="true" />
+      <Label alignment="CENTER" depthTest="DISABLE" layoutX="528.0" layoutY="2.0" prefHeight="33.0" prefWidth="72.0" text="SimpleChat" textFill="#d72623" wrapText="true" AnchorPane.topAnchor="2.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
